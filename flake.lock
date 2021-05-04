@@ -1,0 +1,92 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1619345332,
+        "narHash": "sha256-qHnQkEp1uklKTpx3MvKtY6xzgcqXDsz5nLilbbuL+3A=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "2ebf2558e5bf978c7fb8ea927dfaed8fefab2e28",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "mozillapkgs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1603906276,
+        "narHash": "sha256-RsNPnEKd7BcogwkqhaV5kI/HuNC4flH/OQCC/4W5y/8=",
+        "owner": "mozilla",
+        "repo": "nixpkgs-mozilla",
+        "rev": "8c007b60731c07dd7a052cce508de3bb1ae849b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mozilla",
+        "repo": "nixpkgs-mozilla",
+        "type": "github"
+      }
+    },
+    "naersk": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1618844365,
+        "narHash": "sha256-Z9t0rr+5OG/ru3jdg3jivfYVU4ydV/nqt8UwIut7uHs=",
+        "owner": "nmattia",
+        "repo": "naersk",
+        "rev": "32e3ba39d9d83098b13720a4384bdda191dd0445",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nmattia",
+        "repo": "naersk",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1619464443,
+        "narHash": "sha256-R7WAb8EnkIJxxaF6GTHUPytjonhB4Zm0iatyWoW169A=",
+        "path": "/nix/store/i4c4ph7frbzhfrn4408ghpmayafdmhr3-source",
+        "rev": "8e4fe32876ca15e3d5eb3ecd3ca0b224417f5f17",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1619973265,
+        "narHash": "sha256-EgdfNdqrv/r1s70KGti4r6Bkdg3hs1BuqzQzxraq9JU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9775b39fd45a61c2a53aa6a90485fac8f87ce7c6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "mozillapkgs": "mozillapkgs",
+        "naersk": "naersk",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
